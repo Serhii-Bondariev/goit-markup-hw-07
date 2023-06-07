@@ -51,11 +51,86 @@
             </li>
           </ul>
         </address>
-        <button class="mobile-menu-open-button" type="button" >
+        <button type="button" class="mobile-menu-open-button js-open-menu"  >
           <svg class="mobile-menu-open-button-icon" width="32" height="22">
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
         </button>
+      </div>
+      <!-- mobile-menu -->
+      <div class="mobile-menu js-menu-container">
+        <div class="container mobile-menu-container">
+          <button type="button" class="mobile-menu-close-btn js-close-menu">
+            <svg class="mobile-menu-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+
+          <ul class="site-nav-mobile-menu list">
+            <li class="mobile-menu-link current-page">
+              <a href="./index.html" class="mobile-nav-link current-page link"
+                >Studio</a
+              >
+            </li>
+            <li class="mobile-menu-link">
+              <a href="./portfolio.html" class="mobile-nav-link link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-menu-link">
+              <a href="" class="mobile-nav-link link">Contacts</a>
+            </li>
+          </ul>
+
+          <address class="mobile-menu-contacts">
+            <ul class="mobile-auth-nav list">
+              <li class="mobile-phone-item">
+                <a
+                  href="tel:+110001111111"
+                  class="link mobile-contact-adress-tel"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-mail-item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="link mobile-contact-adress-mail"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mobile-social-list list">
+            <li class="social-list-item">
+              <a href="" class="social-list-link social-list-link-footer">
+                <svg class="social-list-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link social-list-link-footer">
+                <svg class="social-list-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link social-list-link-footer">
+                <svg class="social-list-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link social-list-link-footer">
+                <svg class="social-list-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <!-- Main section -->
@@ -168,7 +243,9 @@
                 "
                 media="(min-width: 1158px)"
               />
-              <img src="./images/mark.jpg" 
+              <img
+              srcset="./images/mark.jpg 1x,./images/mark@2x.jpg 2x,./images/mark@3x.jpg 3x"
+              src="./images/mark.jpg" 
               alt="man_mark" 
               width="264" 
               height="260" />
@@ -232,7 +309,11 @@
             </li>
 
             <li class="our-team-item">
-              <img src="./images/ford.jpg" alt="man_tom" width="264" height="260" />
+              <img srcset="./images/ford.jpg 1x,./images/ford@2x.jpg 2x,./images/ford@3x.jpg 3x" 
+              src="./images/ford.jpg" 
+              alt="man_tom" 
+              width="264" 
+              height="260" />
               <div class="our-team-container">
                 <h3 class="our-team-members">Tom Ford</h3>
                 <p class="our-team-desc">Frontend Developer</p>
@@ -290,7 +371,11 @@
             </li>
 
             <li class="our-team-item">
-              <img src="./images/camila.jpg" alt="woman_camila" width="264" height="260" />
+              <img 
+              srcset="./images/camila.jpg 1x,./images/camila@2x.jpg 2x,./images/camila@3x.jpg 3x"
+              src="./images/camila.jpg" 
+              alt="woman_camila" 
+              width="264" height="260" />
               <div class="our-team-container">
                 <h3 class="our-team-members">Camila Garcia</h3>
                 <p class="our-team-desc">Marketing</p>
@@ -348,7 +433,11 @@
             </li>
 
             <li class="our-team-item">
-              <img src="./images/wilson.jpg" alt="man_daniel" width="264" height="260" />
+              <img 
+              srcset="./images/wilson.jpg 1x,./images/wilson@2x.jpg 2x,./images/wilson@3x.jpg 3x"
+              src="./images/wilson.jpg" 
+              alt="man_daniel" 
+              width="264" height="260" />
               <div class="our-team-container">
                 <h3 class="our-team-members">Daniel Wilson</h3>
                 <p class="our-team-desc">UI Designer</p>
@@ -555,7 +644,7 @@
         </div>
       </div>
     </footer>
-    <!-- MODAL_WINDOW -->1
+    <!-- MODAL_WINDOW -->
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
