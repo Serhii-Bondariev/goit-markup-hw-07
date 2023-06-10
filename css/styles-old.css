@@ -83,12 +83,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
-@media screen and (min-width: 767px) {
-  .header-page {
-   padding-top: 24px;
-   padding-bottom: 22px;
-  }
-}
+
 
 .header-container {
   display: flex;
