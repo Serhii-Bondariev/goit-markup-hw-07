@@ -160,6 +160,10 @@ button {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
+.portfolio-img-mobile {
+  border: 1px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 .logo-header-light {
   color: #2e2f42;
 }
