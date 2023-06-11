@@ -417,8 +417,12 @@ button {
       url(../images/tablet/Dark-bg@2x.jpg);
     max-width: 768px;
   }
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
   .contact-item {
-    padding: 6px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
