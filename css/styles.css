@@ -420,6 +420,11 @@ button {
     column-gap: 24px;
     flex-wrap: wrap;
   }
+  .contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -445,11 +450,7 @@ button {
       url(../images/tablet/Dark-bg@2x.jpg);
     max-width: 768px;
   }
-  .contact-list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
+
   .contact-item {
     font-family: 'Roboto';
     font-style: normal;
@@ -1019,7 +1020,7 @@ button {
   .contact-list {
     display: flex;
     justify-content: space-between;
-    gap: 12px;
+    gap: 40px;
   }
   .our-goal-sec {
     margin-bottom: 96px;
