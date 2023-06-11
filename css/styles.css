@@ -253,9 +253,9 @@ button {
     margin-left: auto;
     margin-right: auto;
   }
-  .our-goal-item:not(:last-child) {
+  /* .our-goal-item:not(:last-child) {
     margin-bottom: 72px;
-  }
+  } */
 }
 
 @media screen and (max-width: 767px) {
@@ -915,6 +915,9 @@ button {
   .container-foorer-logo {
     text-align: center;
   }
+  .our-goal-item:not (:last-child) {
+    /* margin-bottom: 72px; */
+  }
 }
 /* 320px MOBILE */
 @media screen and (max-width: 320px) {
@@ -1202,7 +1205,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 72px;
+    padding-bottom: 72px;
   }
   .we-doing-list {
     display: flex;
