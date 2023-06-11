@@ -1515,8 +1515,11 @@ button {
   position: relative;
 }
 
-.mobile-menu-link {
+/* .mobile-menu-link {
   margin-bottom: 40px;
+} */
+.mobile-menu-link:not(:last-child) {
+  padding-bottom: 40px;
 }
 
 /* modal_window */
