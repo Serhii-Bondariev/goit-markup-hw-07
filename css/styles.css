@@ -242,6 +242,9 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
   }
+  .our-goal-item:not(:last-child) {
+    margin-bottom: 72px;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -249,6 +252,9 @@ button {
     width: 426px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .our-goal-item:not(:last-child) {
+    margin-bottom: 72px;
   }
 }
 
@@ -267,7 +273,7 @@ button {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 72px;
+
     color: #2e2f42;
   }
   .footer-social-title {
@@ -335,6 +341,7 @@ button {
 }
 @media screen and (max-width: 767px) {
   .hero {
+    margin-bottom: 72px;
     padding: 112px 0;
     max-height: 432px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -1495,7 +1502,7 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
+  width: 100%;
   padding: 72px 24px 24px 24px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
