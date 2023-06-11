@@ -394,6 +394,18 @@ button {
   padding: 16px;
   margin: 16px;
 } */
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .our-team-list {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 552px;
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero-title {
     font-family: 'Roboto';
@@ -454,13 +466,7 @@ button {
     /* padding-top: 72px; */
     color: #2e2f42;
   }
-  .our-team-list {
-    display: flex;
-    justify-content: center;
 
-    column-gap: 24px;
-    flex-wrap: wrap;
-  }
   .footer-container {
     max-width: 552px;
     display: flex;
@@ -504,10 +510,10 @@ button {
     max-width: 408px;
   }
 }
-.section-customers {
+/* .section-customers {
   padding-top: 96px;
   padding-bottom: 96px;
-}
+} */
 .customers-icon {
   fill: currentColor;
 }
@@ -1172,6 +1178,14 @@ button {
     padding-top: 120px;
     padding-bottom: 120px;
   }
+  .our-team-list {
+    margin-right: auto;
+    margin-left: auto;
+
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+  }
   .customers-list {
     gap: 24px;
   }
@@ -1442,9 +1456,12 @@ button {
 }
 
 .mobile-nav-link {
-  color: #2e2f42;
-  font-weight: 600;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
   font-size: 36px;
+  color: #2e2f42;
+  text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
