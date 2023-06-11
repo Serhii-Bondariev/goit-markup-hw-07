@@ -574,6 +574,16 @@ button {
   .modal {
     max-width: 408px;
   }
+  .logo {
+    color: var(--primary-btn);
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 74px;
+  }
 }
 /* .section-customers {
   padding-top: 96px;
@@ -947,9 +957,9 @@ button {
   .container-foorer-logo {
     text-align: center;
   }
-  .our-goal-item:not (:last-child) {
-    /* margin-bottom: 72px; */
-  }
+  /* .our-goal-item:not (:last-child) {
+    margin-bottom: 72px;
+  } */
 }
 /* 320px MOBILE */
 @media screen and (max-width: 320px) {
