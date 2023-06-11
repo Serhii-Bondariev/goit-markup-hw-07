@@ -431,6 +431,12 @@ button {
     flex-direction: column;
     gap: 12px;
   }
+  .our-goal-list {
+    padding-bottom: 96px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -471,7 +477,6 @@ button {
     margin-bottom: 96px;
   } */
   .our-goal-list {
-    padding-bottom: 96px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
