@@ -1192,10 +1192,10 @@ button {
     display: flex;
     gap: 24px;
   }
-  .section-customers {
+  /* .section-customers {
     padding-top: 120px;
     padding-bottom: 120px;
-  }
+  } */
   .our-team-list {
     margin-right: auto;
     margin-left: auto;
@@ -1214,7 +1214,6 @@ button {
   .our-team {
     background: var(--background-light);
     padding: 96px 0;
-    padding-bottom: 0;
   }
   .customers-link {
     width: 100%;
