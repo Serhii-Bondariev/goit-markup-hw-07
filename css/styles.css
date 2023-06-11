@@ -471,6 +471,7 @@ button {
     margin-bottom: 96px;
   } */
   .our-goal-list {
+    padding-bottom: 96px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
@@ -483,13 +484,13 @@ button {
     width: calc((100% - 24px) / 2);
   }
   .our-goal-title {
-    margin-bottom: 8px;
+    padding-bottom: 8px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    /* padding-top: 72px; */
+
     color: #2e2f42;
   }
   .portfilio-container {
@@ -1162,7 +1163,7 @@ button {
     color: #ffffff;
   }
   .our-goal-title {
-    margin-bottom: 8px;
+    padding-bottom: 8px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
