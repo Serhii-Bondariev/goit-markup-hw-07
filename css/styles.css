@@ -595,7 +595,7 @@ button {
     width: 768px;
   }
   .logo {
-    margin-right: 121px;
+    margin-right: 149px;
   }
   .mobile-menu-open-button {
     display: none;
@@ -1029,7 +1029,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: inline-block;
-    margin-right: 76px;
+    margin-right: 149px;
   }
   .contact-list {
     display: flex;
