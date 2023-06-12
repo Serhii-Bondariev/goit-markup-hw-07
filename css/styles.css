@@ -1567,8 +1567,8 @@ button {
 
   .mobile-menu-close-btn {
     position: absolute;
-    top: 22px;
-    right: 12px;
+    top: 24px;
+    right: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
