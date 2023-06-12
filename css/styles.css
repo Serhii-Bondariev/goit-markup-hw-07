@@ -161,6 +161,8 @@ button {
   margin-bottom: 8px;
 }
 .portfolio-img-mobile {
+  height: auto;
+  max-width: 100%;
   border: 1px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
