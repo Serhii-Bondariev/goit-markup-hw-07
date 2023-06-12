@@ -458,8 +458,11 @@ button {
     flex-direction: column;
     gap: 12px;
   }
-  .our-goal-list {
+  .our-goal-sec {
+    padding-top: 96px;
     padding-bottom: 96px;
+  }
+  .our-goal-list {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
@@ -482,7 +485,6 @@ button {
     color: #ffffff;
   }
   .hero {
-    margin-bottom: 96px;
     padding: 112px 0;
     height: 435px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -516,7 +518,7 @@ button {
     width: calc((100% - 24px) / 2);
   }
   .our-goal-title {
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -1088,7 +1090,8 @@ button {
     gap: 40px;
   }
   .our-goal-sec {
-    margin-bottom: 96px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
   .portfilio-container {
     padding: 32px 16px;
@@ -1250,7 +1253,7 @@ button {
   }
   .we-doing {
     display: flex;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
   }
   .we-doing-title {
     color: #2e2f42;
@@ -1287,7 +1290,7 @@ button {
   }
   .our-team {
     background: var(--background-light);
-    padding: 96px 0;
+    padding: 120px 0;
   }
   .customers-link {
     width: 100%;
@@ -1427,7 +1430,7 @@ button {
   background-color: transparent;
   padding-left: 16px;
 }
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .footer-subscribe-button {
     margin-top: 16px;
     margin-left: auto;
@@ -1436,7 +1439,7 @@ button {
   .modal-form-footer {
     flex-direction: column;
   }
-}
+} */
 
 .form-input::placeholder {
   color: #ffffff;
@@ -1480,13 +1483,6 @@ button {
   fill: #ffffff;
 }
 
-@media screen and (max-width: 767px) {
-  .mobile-menu.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-  }
-}
 @media screen and (max-width: 767px) {
   .mobile-menu {
     position: fixed;
@@ -1534,6 +1530,19 @@ button {
     border-radius: 50%;
     cursor: pointer;
     padding: 8px;
+  }
+  .mobile-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .footer-subscribe-button {
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .modal-form-footer {
+    flex-direction: column;
   }
 }
 
