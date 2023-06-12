@@ -312,7 +312,8 @@ button {
     font-weight: 500;
   }
   .our-goal-sec {
-    margin-bottom: 96px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
   .customers-list {
     display: flex;
@@ -325,7 +326,7 @@ button {
 
 .our-team {
   background: var(--background-light);
-  margin-bottom: 96px;
+  /* margin-bottom: 96px; */
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -375,7 +376,7 @@ button {
 }
 @media screen and (max-width: 767px) {
   .hero {
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
     padding: 112px 0;
     max-height: 432px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -772,16 +773,19 @@ button {
 /* ================== */
 
 .section-customers {
-  margin-bottom: 96px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .customers-title {
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--title-color);
+  text-transform: capitalize;
+  color: #2e2f42;
   margin-bottom: 72px;
 }
 /* .customers-list {
@@ -888,7 +892,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     padding-left: 40px;
     padding-right: 40px;
