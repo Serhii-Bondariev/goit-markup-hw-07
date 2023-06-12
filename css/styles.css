@@ -1324,6 +1324,10 @@ button {
     gap: 0;
     align-items: baseline;
   }
+  .container-foorer-logo {
+    margin-right: 120px;
+    text-align: start;
+  }
 
   .footer-social-block {
     margin-right: 80px;
