@@ -996,7 +996,7 @@ button {
   padding-bottom: 32px;
 }
 .our-team-members {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   text-align: center;
   font-weight: 500;
   font-size: 20px;
@@ -1361,7 +1361,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
   }
   .we-doing-list {
     display: flex;
@@ -1431,7 +1431,7 @@ button {
     text-align: start;
   }
   .main-section {
-    padding: 96px 0 120px;
+    margin: 100px 0 120px;
   }
   .filter-btn-list {
     display: flex;
@@ -1444,7 +1444,7 @@ button {
     justify-content: center;
     column-gap: 24px;
     row-gap: 72px;
-    margin-bottom: 96px;
+    /* margin-bottom: 96px; */
   }
   .our-team-item {
     background-color: #ffffff;
