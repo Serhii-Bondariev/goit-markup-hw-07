@@ -746,8 +746,8 @@ button {
   .our-team-list {
     display: flex;
     justify-content: center;
-    row-gap: 64px;
     column-gap: 24px;
+    row-gap: 64px;
     flex-wrap: wrap;
   }
   .our-team-item {
@@ -767,6 +767,7 @@ button {
     margin: 96px 0;
   }
   .our-goal-list {
+    display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
@@ -1324,14 +1325,14 @@ button {
       0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   }
   .hero {
-    padding: 192px 0;
+    padding: 188px 0;
     height: 600px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/group-people-working-website-template.jpg);
     max-width: 1440px;
   }
   .hero-title {
-    margin-bottom: 40px;
+    margin-bottom: 48px;
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
