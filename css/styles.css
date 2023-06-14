@@ -515,6 +515,7 @@ button {
     flex-wrap: wrap;
     gap: 24px;
     margin-top: 48px;
+    margin-bottom: 48px;
     display: flex;
   }
   .footer-social-text,
@@ -657,6 +658,14 @@ button {
   .our-team-item:last-child {
     margin-bottom: 0;
   }
+  .portfolio-list {
+    justify-content: center;
+    gap: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+    /* margin-top: 48px; */
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 321px) {
@@ -773,12 +782,18 @@ button {
     row-gap: 72px;
   }
   .filter-btn-list {
-    margin: 64px;
+    margin: 64px 0px;
     gap: 24px;
     align-items: center;
     justify-content: center;
-    align-content: center;
+
     display: flex;
+  }
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 96px;
+    /* margin-top: 48px; */
   }
 }
 
@@ -1007,14 +1022,14 @@ button {
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-list {
+/* .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   row-gap: 48px;
   margin-bottom: 48px;
   margin-top: 48px;
-}
+} */
 .our-team-title {
   margin-bottom: 72px;
   color: #2e2f42;
@@ -1473,6 +1488,8 @@ button {
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-top: 100px;
+    margin-bottom: 72px;
   }
   .portfolio-list {
     flex-wrap: wrap;
@@ -1480,7 +1497,7 @@ button {
     justify-content: center;
     column-gap: 24px;
     row-gap: 72px;
-    /* margin-bottom: 96px; */
+    margin-bottom: 120px;
   }
   .our-team-item {
     background-color: #ffffff;
