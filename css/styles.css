@@ -398,8 +398,8 @@ button {
     font-weight: 500;
   }
   .our-goal-sec {
-    margin-top: 96px;
-    margin-bottom: 96px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
   .customers-list {
     display: flex;
@@ -773,7 +773,7 @@ button {
     gap: 12px;
   }
   .our-goal-sec {
-    margin: 96px 0;
+    padding: 96px 0;
   }
   .our-goal-list {
     display: flex;
@@ -782,7 +782,7 @@ button {
     row-gap: 72px;
   }
   .filter-btn-list {
-    margin: 64px 0px;
+    padding: 64px 0px;
     gap: 24px;
     align-items: center;
     justify-content: center;
@@ -1086,7 +1086,7 @@ button {
 }
 
 .section-customers {
-  margin: 96px 0;
+  padding: 96px 0;
 }
 .customers-title {
   font-family: 'Roboto';
@@ -1230,8 +1230,7 @@ button {
     gap: 40px;
   }
   .our-goal-sec {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding: 120px 0;
   }
   .portfilio-container {
     padding: 32px 16px;
@@ -1402,7 +1401,7 @@ button {
   }
   .we-doing {
     display: flex;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
   }
   .we-doing-title {
     color: #2e2f42;
@@ -1505,10 +1504,10 @@ button {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16),
       0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   }
-  .section-customers {
+  /* .section-customers {
     margin-top: 120px;
     margin-bottom: 120px;
-  }
+  } */
 }
 
 /* 
